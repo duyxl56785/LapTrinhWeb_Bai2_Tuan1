@@ -15,13 +15,13 @@ namespace StudentManagement.Controllers
         // GET: /Home/About
         public IActionResult About()
         {
-            return Content("Họ và tên: Nguyễn Văn Duy"); // Thay bằng tên của bạn
+            return Content("Họ và tên: Nguyễn Văn Duy"); 
         }
 
         // GET: /Home/Contact
         public IActionResult Contact()
         {
-            return Content("Email: nguyenvanduy@example.com"); // Thay bằng email của bạn
+            return Content("Email: nguyenvanduy@example.com"); 
         }
     }
-}
+} 
