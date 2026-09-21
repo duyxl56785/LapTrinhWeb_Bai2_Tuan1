@@ -6,22 +6,19 @@ namespace StudentManagement.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /Home/Index hoặc /
         public IActionResult Index()
         {
             return Content("Welcome to ASP.NET MVC");
         }
 
-        // GET: /Home/About
         public IActionResult About()
         {
             return Content("Họ và tên: Nguyễn Văn Duy"); 
         }
 
-        // GET: /Home/Contact
         public IActionResult Contact()
         {
             return Content("Email: nguyenvanduy@example.com"); 
         }
     }
-} 
+}
